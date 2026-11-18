@@ -1,0 +1,19 @@
+[MIME Cache]
+application/vnd.ms-excel=chatgpt.desktop;
+application/vnd.ms-excel.sheet.macroEnabled.12=chatgpt.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=chatgpt.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=chatgpt.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=chatgpt.desktop;
+application/x-osu-beatmap-archive=osuwinello-file-extensions-handler.desktop;
+application/x-osu-replay=osuwinello-file-extensions-handler.desktop;
+application/x-osu-skin-archive=osuwinello-file-extensions-handler.desktop;
+inode/directory=thunar.desktop;
+text/csv=chatgpt.desktop;
+text/html=chromium.desktop;
+text/tab-separated-values=chatgpt.desktop;
+x-scheme-handler/about=chromium.desktop;
+x-scheme-handler/codex=chatgpt.desktop;
+x-scheme-handler/http=chatgpt.desktop;chromium.desktop;
+x-scheme-handler/https=chatgpt.desktop;chromium.desktop;
+x-scheme-handler/osu=osuwinello-url-handler.desktop;
+x-scheme-handler/unknown=chromium.desktop;

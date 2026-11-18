@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=02 ChatGPT
+Comment=ChatGPT by OpenAI
+GenericName=ChatGPT
+Categories=Utility;Development;X-RofiFavorites;
+Exec=chatgpt %U
+Type=Application
+StartupNotify=true
+Icon=/home/t/.local/share/icons/rofi/chatgpt-white.png
+MimeType=x-scheme-handler/codex;x-scheme-handler/http;x-scheme-handler/https;text/csv;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.presentationml.presentation;text/tab-separated-values;application/vnd.ms-excel;application/vnd.ms-excel.sheet.macroEnabled.12;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;
+

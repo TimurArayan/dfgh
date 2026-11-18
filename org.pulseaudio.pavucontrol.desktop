@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=09 Volume Control
+GenericName=Звук
+Exec=pavucontrol
+Icon=/home/t/.local/share/icons/rofi/volume.png
+Categories=AudioVideo;Audio;X-RofiFavorites;
+Terminal=false

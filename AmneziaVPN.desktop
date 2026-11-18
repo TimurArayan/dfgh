@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=06 AmneziaVPN
+GenericName=AmneziaVPN
+Categories=Network;Qt;Security;X-RofiFavorites;
+Version=1.0
+Comment=Client of your self-hosted VPN
+Exec=AmneziaVPN
+Icon=/home/t/.local/share/icons/rofi/vpn.png
+Terminal=false
+StartupWMClass=AmneziaVPN

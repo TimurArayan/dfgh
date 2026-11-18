@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=13 mag
+GenericName=Магистерская
+Exec=thunar /home/t/mag
+Icon=/home/t/.local/share/icons/rofi/graduate-cap.png
+Terminal=false
+Categories=Utility;X-RofiFavorites;

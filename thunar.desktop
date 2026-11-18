@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=07 Thunar
+GenericName=Thunar
+Exec=thunar %U
+Icon=/home/t/.local/share/icons/rofi/folder.png
+Terminal=false
+StartupNotify=true
+Categories=System;FileManager;X-RofiFavorites;
+MimeType=inode/directory;

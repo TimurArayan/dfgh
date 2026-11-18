@@ -1,0 +1,53 @@
+[Desktop Entry]
+Type=Application
+Name=08 Flameshot
+GenericName=Flameshot
+Exec=/usr/bin/flameshot gui
+Icon=/home/t/.local/share/icons/rofi/photoshoot.png
+Terminal=false
+StartupNotify=false
+Categories=Graphics;Utility;X-RofiFavorites;
+
+[Desktop Action Configure]
+Name=Configure
+Name[zh_CN]=配置
+Name[pl]=Konfiguruj
+Name[fr]=Configurer
+Name[ja]=設定
+Name[ru]=Настройки
+Name[sk]=Nastaviť
+Name[nl]=Instellen
+Name[nl_NL]=Instellen
+Name[sr]=Подешавања
+Name[uk]=Налаштувати
+Name[es]=Configurar
+Name[de]=Einstellungen
+Name[pt_BR]=Configurar
+Exec=/usr/bin/flameshot config
+
+[Desktop Action Capture]
+Name=Take screenshot
+Name[zh_CN]=进行截图
+Name[pl]=Zrzut ekranu
+Name[fr]=Prendre une capture d'écran
+Name[ja]=スクリーンショットを撮る
+Name[ru]=Сделать скриншот
+Name[sk]=Zachytiť obrazovku
+Name[sr]=Сними екран
+Name[uk]=Зробити знімок
+Name[nl]=Schermfoto maken
+Name[nl_NL]=Schermfoto maken
+Name[es]=Tomar captura de pantalla
+Name[de]=Bildschirmfoto aufnehmen
+Name[pt_BR]=Capturar tela
+Exec=/usr/bin/flameshot gui
+
+[Desktop Action Launcher]
+Name=Open launcher
+Name[de]=Starter öffnen
+Name[nl]=Starter openen
+Name[nl_NL]=Starter openen
+Name[sk]=Otvoriť spúšťač
+Name[zh_CN]=打开启动器
+Name[pt_BR]=Abrir lançador
+Exec=/usr/bin/flameshot launcher

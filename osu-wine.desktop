@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=12 osu!
+GenericName=osu!
+Comment=osu!stable
+Exec=/home/t/.local/bin/osu-wine
+Icon=/home/t/.local/share/icons/rofi/osu.png
+Terminal=false
+Categories=Game;X-RofiFavorites;
+StartupNotify=false

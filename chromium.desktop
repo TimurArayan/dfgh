@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=01 Chromium
+GenericName=Chromium
+Exec=chromium %U
+Icon=/home/t/.local/share/icons/rofi/social.png
+Categories=Network;WebBrowser;X-RofiFavorites;
+Terminal=false
+MimeType=x-scheme-handler/unknown;x-scheme-handler/about;x-scheme-handler/https;x-scheme-handler/http;text/html;

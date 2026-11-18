@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=05 Sublime Text
+GenericName=Sublime
+Exec=/opt/sublime_text/sublime_text %F
+Icon=/home/t/.local/share/icons/rofi/sublime-apricot.png
+Categories=Development;TextEditor;X-RofiFavorites;
+Terminal=false

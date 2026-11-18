@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=04 Kitty
+GenericName=Kitty
+Exec=kitty
+Icon=/home/t/.local/share/icons/rofi/terminal.png
+Categories=System;TerminalEmulator;X-RofiFavorites;
+Terminal=false

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=03 Telegram
+GenericName=Telegram
+Exec=Telegram
+Icon=/home/t/.local/share/icons/rofi/paper.png
+Categories=Network;InstantMessaging;X-RofiFavorites;
+Terminal=false
