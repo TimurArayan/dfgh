@@ -1,0 +1,10 @@
+{
+    "viewer": "command",
+    "show_panel_on_build": "never",
+    "viewer_settings": {
+        "linux": {
+            "view_command": "/home/t/.local/share/zathura-launcher/zathura $pdf_file",
+            "forward_sync_command": "/home/t/.local/share/zathura-launcher/zathura --synctex-forward $line:$col:$src_file $pdf_file"
+        }
+    }
+}

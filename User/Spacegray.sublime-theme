@@ -1,0 +1,48 @@
+
+{
+    "rules": [
+        {
+            "class": "tabset_control",
+            "tab_width": 154,
+            "tab_min_width": 154,
+            "tab_height": 36,
+            "layer0.texture": "",
+            "layer0.tint": "#0d0f15",
+            "layer0.opacity": 1
+        },
+        {
+            "class": "tab_control",
+            "layer1.texture": "",
+            "layer1.tint": "#0d0f15",
+            "layer1.opacity": 1,
+            "layer2.opacity": 0,
+            "layer3.opacity": 0
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["selected"],
+            "layer1.texture": "",
+            "layer1.tint": "#FF0055",
+            "layer1.opacity": 1,
+            "layer2.opacity": 0,
+            "layer3.opacity": 0
+        },
+        {
+            "class": "tab_label",
+            "font.face": "Nunito Sans SemiBold",
+            "font.bold": false,
+            "font.size": 14,
+            "fg": "#43d0b1"
+        },
+        {
+            "class": "tab_label",
+            "parents": [
+                {
+                    "class": "tab_control",
+                    "attributes": ["selected"]
+                }
+            ],
+            "fg": "#eeffff"
+        }
+    ]
+}
