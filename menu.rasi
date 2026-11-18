@@ -1,0 +1,107 @@
+
+configuration {
+    modes: "drun";
+    display-drun: "Приложения";
+    drun-categories: "X-RofiFavorites";
+    show-icons: true;
+    hover-select: true;
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+    kb-cancel: "Escape,Super+d,Super+Cyrillic_ve";
+
+    kb-select-1: "";
+    kb-select-2: "";
+    kb-select-3: "";
+    kb-select-4: "";
+    kb-select-5: "";
+    kb-select-6: "";
+    kb-select-7: "";
+    kb-select-8: "";
+    kb-select-9: "";
+    kb-select-10: "";
+
+    drun-match-fields: "name,generic";
+    disable-history: true;
+    drun-display-format: "{generic}";
+    kb-move-char-back: "Control+b";
+    kb-move-char-forward: "Control+f";
+    kb-move-word-back: "Alt+b";
+    kb-move-word-forward: "Alt+f";
+    kb-entry-history-up: "";
+    kb-entry-history-down: "";
+    kb-row-left: "Left";
+    kb-row-right: "Right";
+    kb-row-up: "Up";
+    kb-row-down: "Down";
+    kb-mode-previous: "Control+Left";
+    kb-mode-next: "Control+Right";
+}
+
+* {
+    font: "Calibri 12";
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+window {
+    width: 400px;
+    height: 424px;
+
+    location: northwest;
+    anchor: northwest;
+
+    x-offset: 1440px;
+    y-offset: 60px;
+
+    background-color: #161820;
+    border: 1px;
+    border-color:#FF0055;
+}
+
+mainbox {
+    children: [ listview ];
+    padding: 8px;
+}
+
+listview {
+    border: 0px;
+    columns: 3;
+    lines: 4;
+    flow: horizontal;
+    fixed-height: true;
+    fixed-columns: true;
+    scrollbar: false;
+    spacing: 6px;
+    cycle: false;
+}
+
+element {
+    orientation: vertical;
+    children: [ element-icon, element-text ];
+    padding: 6px 8px;
+    spacing: 10px;
+}
+
+element normal.normal, element alternate.normal {
+    background-color: #161820;
+    text-color: #43d0b1;
+}
+
+element selected.normal {
+    background-color: #FF0055;
+    text-color: #eeffff;
+}
+
+element-icon {
+    size: 48px;
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}
+
+element-text {
+    font: "Comic True Mono Tuned 12";
+    background-color: inherit;
+    text-color: inherit;
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}
